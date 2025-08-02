@@ -1,6 +1,6 @@
 # 🚗 Car Price ETL Project
 
-📄 [View full ETL pipeline in Jupyter Notebook](https://github.com/CloudDataPalina/ETL_project.ipynb)
+📄 [View full ETL pipeline in Jupyter Notebook](https://github.com/CloudDataPalina/ETL_Project/blob/main/ETL_project.ipynb)
 
 A mini-project demonstrating a complete ETL (Extract–Transform–Load) pipeline using Python. The project loads used car data from multiple file formats (CSV, JSON, XML), performs basic transformations, and saves a cleaned dataset ready for further analysis or integration.
 

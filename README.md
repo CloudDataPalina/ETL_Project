@@ -8,33 +8,26 @@ A mini-project demonstrating a complete ETL (Extract–Transform–Load) pipelin
 
 ## 📁 Project Structure
 
-''' Car-Price-ETL-Project/
-├── datasource.zip ← Archive with input CSV, JSON, XML files
-├── transformed_data.csv ← Final cleaned dataset
-├── log_file.txt ← Log of ETL job execution
-├── ETL_project.ipynb ← Full ETL pipeline notebook
-└── README.md ← Project documentation (this file) '''
-
-
+```plaintext Car-Price-ETL-Project/ ├── datasource/ ← Folder with input CSV, JSON, XML files ├── transformed_data.csv ← Final cleaned dataset ├── log_file.txt ← Log of ETL job execution ├── ETL_project.ipynb ← Full ETL pipeline notebook └── README.md ← Project documentation (this file) ``` 
 ---
 
 ## ⚙️ Tools & Technologies
 
-- Python
-- pandas
-- json
-- xml.etree.ElementTree
-- zipfile
-- Jupyter Notebook
+- Python  
+- pandas  
+- json  
+- xml.etree.ElementTree  
+- glob  
+- Jupyter Notebook  
 
 ---
 
 ## 🔄 ETL Process Overview
 
 ### 1️⃣ Extract
-- Reads files from a ZIP archive
-- Handles `.csv`, `.json`, and `.xml` formats
-- Skips the target output file to prevent recursion
+- Loads files from the current working directory  
+- Handles `.csv`, `.json`, and `.xml` formats  
+- Skips the output target file to avoid re-processing already transformed data
 
 ### 2️⃣ Transform
 - Standardizes column structure

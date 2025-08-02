@@ -10,11 +10,21 @@ A mini-project demonstrating a complete ETL (Extract–Transform–Load) pipelin
 
 ```
 Car-Price-ETL-Project/
-├── datasource/                ← Folder with input CSV, JSON, XML files
-├── transformed_data.csv       ← Final cleaned dataset
-├── log_file.txt               ← Log of ETL job execution
-├── ETL_project.ipynb          ← Full ETL pipeline notebook
-└── README.md                  ← Project documentation (this file)
+├── datasource/                      ← Folder with input CSV, JSON, XML files
+│   ├── used_car_prices1.csv
+│   ├── used_car_prices1.json
+│   ├── used_car_prices1.xml
+│   ├── used_car_prices2.csv
+│   ├── used_car_prices2.json
+│   ├── used_car_prices2.xml
+│   ├── used_car_prices3.csv
+│   ├── used_car_prices3.json
+│   └── used_car_prices3.xml
+├── transformed_data.csv            ← Final cleaned dataset
+├── log_file.txt                    ← Log of ETL job execution
+├── ETL_project.ipynb               ← Full ETL pipeline notebook
+└── README.md                       ← Project documentation (this file)
+
 ```
 
 ## ⚙️ Tools & Technologies

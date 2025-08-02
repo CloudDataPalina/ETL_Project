@@ -8,8 +8,14 @@ A mini-project demonstrating a complete ETL (Extract–Transform–Load) pipelin
 
 ## 📁 Project Structure
 
-```plaintext Car-Price-ETL-Project/ ├── datasource/ ← Folder with input CSV, JSON, XML files ├── transformed_data.csv ← Final cleaned dataset ├── log_file.txt ← Log of ETL job execution ├── ETL_project.ipynb ← Full ETL pipeline notebook └── README.md ← Project documentation (this file) ``` 
----
+```
+Car-Price-ETL-Project/
+├── datasource/                ← Folder with input CSV, JSON, XML files
+├── transformed_data.csv       ← Final cleaned dataset
+├── log_file.txt               ← Log of ETL job execution
+├── ETL_project.ipynb          ← Full ETL pipeline notebook
+└── README.md                  ← Project documentation (this file)
+```
 
 ## ⚙️ Tools & Technologies
 

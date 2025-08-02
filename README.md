@@ -31,9 +31,11 @@ Car-Price-ETL-Project/
 
 - Python  
 - pandas  
+- csv  
 - json  
 - xml.etree.ElementTree  
 - glob  
+- datetime  
 - Jupyter Notebook  
 
 ---

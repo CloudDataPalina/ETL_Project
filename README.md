@@ -21,7 +21,7 @@ Car-Price-ETL-Project/
 │ ├── used_car_prices3.csv
 │ ├── used_car_prices3.json
 │ └── used_car_prices3.xml
-├──  ETL_project.ipynb                    ← Full ETL pipeline in Jupyter Notebook
+├── ETL_project.ipynb                    ← Full ETL pipeline in Jupyter Notebook
 ├── output/
 │ ├── transformed_data.csv                 ← Final cleaned dataset
 │ └── log_file.txt                         ← Log of ETL job execution

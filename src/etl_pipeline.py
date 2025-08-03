@@ -1,4 +1,4 @@
-pip install pandas 
+#pip install pandas 
 
 import pandas as pd                   # Working with tabular data (DataFrame)
 import glob                           # Searching for files matching a pattern (*.csv, *.json, *.xml)

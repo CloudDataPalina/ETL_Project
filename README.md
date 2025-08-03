@@ -58,8 +58,8 @@ Car-Price-ETL-Project/
 - Cleans data types and rounds prices to 2 decimal places
 
 ### 3️⃣ Load
-- Saves output to: [`output/transformed_data.csv`](./output/transformed_data.csv)
-- Logs all operations to: [`output/log_file.txt`](./output/log_file.txt)
+- Saves output to: [`transformed_data.csv`](./transformed_data.csv)
+- Logs all operations to: [`log_file.txt`](./log_file.txt)
 
 ---
 

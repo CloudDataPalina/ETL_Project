@@ -1,0 +1,3 @@
+# requirements.txt for Car Price ETL Pipeline project
+
+pandas>=1.3.0

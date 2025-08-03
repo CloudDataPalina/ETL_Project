@@ -68,14 +68,16 @@ Car-Price-ETL-Project/
 ## ⚙️ How to Run
 
 ```bash
-# ✅ 1. Clone the repository
+### 1. Clone the repository
 git clone https://github.com/CloudDataPalina/ETL_Project.git
 cd ETL_Project
-
-# ✅ 2. Install dependencies
+```
+### 2. Install dependencies
+```bash
 pip install -r requirements.txt
-
-# ✅ 3. Run the Python ETL pipeline
+```
+### 3. Run the Python ETL pipeline
+```bash
 python src/etl_pipeline.py
 ```
 ---

@@ -100,9 +100,9 @@ python src/etl_pipeline.py
 
 In this mini-project:
 
-- ✅ **Extracted** data from `.csv`, `.json`, and `.xml` files  
-- ✅ **Transformed** prices for consistency  
-- ✅ **Loaded** the result into a clean `.csv` file  
+- **Extracted** data from `.csv`, `.json`, and `.xml` files  
+- **Transformed** prices for consistency  
+- **Loaded** the result into a clean `.csv` file  
 - 🧾 All actions are logged for traceability
 
 This project showcases how to build a simple yet complete ETL pipeline for diverse data sources. It serves as a foundation for more advanced data engineering workflows.

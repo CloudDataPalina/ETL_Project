@@ -29,16 +29,16 @@ Car-Price-ETL-Project/
 
 ```
 
-## ⚙️ Tools & Technologies
+## 🛠️ Skills & Tools
 
-- Python  
-- pandas  
-- csv  
-- json  
-- xml.etree.ElementTree  
-- glob  
-- datetime  
-- Jupyter Notebook  
+- `Python` : core programming language
+- `pandas` : data transformation and manipulation
+- `csv` : reading and writing tabular data
+- `json` : working with JSON-formatted data
+- `xml.etree.ElementTree` : XML parsing and extraction
+- `glob` : pattern-based file searching
+- `datetime` : working with dates and timestamps
+- `Jupyter Notebook` : interactive coding and documentation
 
 ---
 

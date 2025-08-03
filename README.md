@@ -67,8 +67,8 @@ Car-Price-ETL-Project/
 
 ## ⚙️ How to Run
 
-```bash
 ### 1. Clone the repository
+```bash
 git clone https://github.com/CloudDataPalina/ETL_Project.git
 cd ETL_Project
 ```

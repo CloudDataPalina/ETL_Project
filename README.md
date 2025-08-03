@@ -2,8 +2,6 @@
 
 📄 [View full ETL pipeline in Jupyter Notebook](https://github.com/CloudDataPalina/ETL_Project/blob/main/ETL_project.ipynb)
 
-
-
 A mini-project demonstrating a complete ETL (Extract–Transform–Load) pipeline using Python. The project loads used car data from multiple file formats (CSV, JSON, XML), performs basic transformations, and saves a cleaned dataset ready for further analysis or integration.
 
 ---
@@ -12,22 +10,29 @@ A mini-project demonstrating a complete ETL (Extract–Transform–Load) pipelin
 
 ```
 Car-Price-ETL-Project/
-├── datasource/                      ← Folder with input CSV, JSON, XML files
-│   ├── used_car_prices1.csv
-│   ├── used_car_prices1.json
-│   ├── used_car_prices1.xml
-│   ├── used_car_prices2.csv
-│   ├── used_car_prices2.json
-│   ├── used_car_prices2.xml
-│   ├── used_car_prices3.csv
-│   ├── used_car_prices3.json
-│   └── used_car_prices3.xml
-├── transformed_data.csv            ← Final cleaned dataset
-├── log_file.txt                    ← Log of ETL job execution
-├── ETL_project.ipynb               ← Full ETL pipeline notebook
-└── README.md                       ← Project documentation (this file)
-
+├── datasource/                             ← Folder with input CSV, JSON, XML files
+│ ├── used_car_prices1.csv
+│ ├── used_car_prices1.json
+│ ├── used_car_prices1.xml
+│ ├── used_car_prices2.csv
+│ ├── used_car_prices2.json
+│ ├── used_car_prices2.xml
+│ ├── used_car_prices3.csv
+│ ├── used_car_prices3.json
+│ └── used_car_prices3.xml
+├── notebook/
+│ └── ETL_project.ipynb                    ← Full ETL pipeline in Jupyter Notebook
+├── output/
+│ ├── transformed_data.csv                 ← Final cleaned dataset
+│ └── log_file.txt                         ← Log of ETL job execution
+├── src/
+│ └── etl_pipeline.py                      ← Python version of ETL logic
+├── requirements.txt                       ← Project dependencies
+└── README.md                              ← Project documentation (this file)
 ```
+
+
+---
 
 ## 🛠️ Skills & Tools
 
@@ -45,19 +50,33 @@ Car-Price-ETL-Project/
 ## 🔄 ETL Process Overview
 
 ### 1️⃣ Extract
-- Loads files from the current working directory  
-- Handles `.csv`, `.json`, and `.xml` formats  
-- Skips the output target file to avoid re-processing already transformed data
+- Loads files from the `/datasource` folder  
+- Supports `.csv`, `.json`, and `.xml` formats  
+- Skips already transformed output file to prevent duplication
 
 ### 2️⃣ Transform
-- Standardizes column structure
-- Rounds `price` column to two decimal places
+- Standardizes the column names
+- Cleans data types and rounds prices to 2 decimal places
 
 ### 3️⃣ Load
-- Exports the final DataFrame to a CSV file → [`transformed_data.csv`](./transformed_data.csv)
-- Adds timestamped logs to → [`log_file.txt`](./log_file.txt)
-- Source files are located in → [`/datasource`](./datasource/)
+- Saves output to: [`output/transformed_data.csv`](./output/transformed_data.csv)
+- Logs all operations to: [`output/log_file.txt`](./output/log_file.txt)
 
+---
+
+## ⚙️ How to Run
+
+```bash
+# ✅ 1. Clone the repository
+git clone https://github.com/CloudDataPalina/ETL_Project.git
+cd ETL_Project
+
+# ✅ 2. Install dependencies
+pip install -r requirements.txt
+
+# ✅ 3. Run the Python ETL pipeline
+python src/etl_pipeline.py
+```
 ---
 
 ## 📊 Sample Output (transformed_data.csv)

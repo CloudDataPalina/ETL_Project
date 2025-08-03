@@ -1,5 +1,8 @@
 # 🚗 Car Price ETL Project
-![Status](https://img.shields.io/badge/status-passed-brightgreen?style=flat-square)
+![status](https://img.shields.io/badge/status-passed-brightgreen)
+
+### ✅ Project Status
+This project is **functionally complete and tested**, but **open for future improvements and enhancements**.
 
 📄 [View full ETL pipeline in Jupyter Notebook](https://github.com/CloudDataPalina/ETL_Project/blob/main/ETL_project.ipynb)
 

@@ -54,7 +54,7 @@ Car-Price-ETL-Project/
 - Rounds `price` column to two decimal places
 
 ### 3️⃣ Load
-- Exports the final DataFrame to a CSV file → [`transformed_data.xls`](./transformed_data.xls)
+- Exports the final DataFrame to a CSV file → [`transformed_data.csv`](./transformed_data.csv)
 - Adds timestamped logs to → [`log_file.txt`](./log_file.txt)
 - Source files are located in → [`/datasource`](./datasource/)
 

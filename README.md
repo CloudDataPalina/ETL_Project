@@ -121,11 +121,12 @@ python src/etl_pipeline.py
 In this mini-project:
 
 - **Extracted** data from `.csv`, `.json`, and `.xml` files  
-- **Transformed** prices for consistency  
-- **Loaded** the result into a clean `.csv` file  
-- 🧾 All actions are logged for traceability
+- **Transformed** prices and standardized the dataset for consistency  
+- **Loaded** the result into a clean `.csv` file for further analysis  
+- 🧾 All actions were logged for traceability  
+- 📊 **Visualized key insights** using matplotlib — including average prices by brand and year
 
-This project showcases how to build a simple yet complete ETL pipeline for diverse data sources. It serves as a foundation for more advanced data engineering workflows.
+This project demonstrates how a simple yet complete ETL and analytics pipeline can uncover valuable insights from heterogeneous data sources.
 
 ---
 

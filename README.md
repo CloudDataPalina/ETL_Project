@@ -78,7 +78,7 @@ cd ETL_Project
 ```bash
 pip install -r requirements.txt
 ```
-### 3. Run the Python ETL pipeline
+### 3. Run the Python script
 ```bash
 python src/etl_pipeline.py
 ```

@@ -48,7 +48,8 @@ Car-Price-ETL-Project/
 - `glob` : pattern-based file searching
 - `datetime` : working with dates and timestamps
 - `Jupyter Notebook` : interactive coding and documentation
-
+- `matplotlib` : visual analytics and charts
+  
 ---
 
 ## 🔄 ETL Process Overview
@@ -63,8 +64,26 @@ Car-Price-ETL-Project/
 - Cleans data types and rounds prices to 2 decimal places
 
 ### 3️⃣ Load
-- Saves output to: [`transformed_data.csv`](./transformed_data.csv)
-- Logs all operations to: [`log_file.txt`](./log_file.txt)
+- Saves final data to: [`output/transformed_data.csv`](https://github.com/CloudDataPalina/ETL_Project/blob/main/output/transformed_data.csv)  
+- Logs operations in: [`output/log_file.txt`](https://github.com/CloudDataPalina/ETL_Project/blob/main/output/log_file.txt)
+
+---
+
+## 📊 Visual Insights
+
+Using `matplotlib`, the project generates key charts:
+
+- **Top 10 Car Brands by Average Price**  
+   [`images/top_brands_avg_price.png`](https://github.com/CloudDataPalina/ETL_Project/blob/main/images/top_brands_avg_price.png)
+
+- **Average Price by Year of Manufacture**  
+   [`images/avg_price_by_year.png`](https://github.com/CloudDataPalina/ETL_Project/blob/main/images/avg_price_by_year.png)
+
+### 📌 Key Insights:
+
+- Most expensive brands include **Toyota** and **Suzuki**
+- Cars from **2020 and later** maintain the highest average price
+- Strong correlation observed between year of manufacture and vehicle price
 
 ---
 

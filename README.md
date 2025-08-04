@@ -74,10 +74,10 @@ Car-Price-ETL-Project/
 Using `matplotlib`, the project generates key charts:
 
 #### 🔹 Top 10 Car Brands by Average Price  
-![Top Brands Chart](images/top_brands_avg_price.png)
+[Top Brands Chart](images/top_brands_avg_price.png)
 
 #### 🔹 Average Price by Year of Manufacture  
-![Price by Year Chart](images/avg_price_by_year.png)
+[Price by Year Chart](images/avg_price_by_year.png)
 
 
 ### 📌 Key Insights:

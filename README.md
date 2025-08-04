@@ -81,9 +81,9 @@ Using `matplotlib`, the project generates key charts:
 
 ### 📌 Key Insights:
 
-- The most expensive brands include ***Toyota*** and ***Suzuki***
-- Cars manufactured in ***2020*** and later maintain the highest average prices
-- There is a clear inverse relationship between vehicle age and price — the newer the car, the higher its market value
+- The most expensive brands include **Toyota** and **Suzuki**
+- Cars manufactured in **2020 and later** maintain the highest average prices
+- There is a clear inverse relationship between vehicle age and price — **the newer the car, the higher its market value**
 
 ---
 

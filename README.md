@@ -15,7 +15,7 @@ A mini-project demonstrating a complete ETL (Extract–Transform–Load) pipelin
 
 ```
 Car-Price-ETL-Project/
-├── datae/                                  ← Folder with input CSV, JSON, XML files
+├── data/                                   ← Folder with input CSV, JSON, XML files
 │ ├── used_car_prices1.csv
 │ ├── used_car_prices1.json
 │ ├── used_car_prices1.xml

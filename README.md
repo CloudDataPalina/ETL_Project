@@ -15,7 +15,7 @@ A mini-project demonstrating a complete ETL (Extract–Transform–Load) pipelin
 
 ```
 Car-Price-ETL-Project/
-├── datasource/                             ← Folder with input CSV, JSON, XML files
+├── datae/                                  ← Folder with input CSV, JSON, XML files
 │ ├── used_car_prices1.csv
 │ ├── used_car_prices1.json
 │ ├── used_car_prices1.xml
@@ -25,13 +25,14 @@ Car-Price-ETL-Project/
 │ ├── used_car_prices3.csv
 │ ├── used_car_prices3.json
 │ └── used_car_prices3.xml
+├── output/
+│ ├── transformed_data.csv                  ← Final cleaned dataset
+│ └──log_file.txt                           ← Log of ETL job execution
 ├── src/
-│ └── etl_pipeline.py                      ← Python version of ETL logic
-├── ETL_project.ipynb                      ← Full ETL pipeline in Jupyter Notebook
-├── transformed_data.csv                   ← Final cleaned dataset
-├── log_file.txt                           ← Log of ETL job execution
-├── requirements.txt                       ← Project dependencies
-└── README.md                              ← Project documentation (this file)
+│ └── etl_pipeline.py                       ← Python version of ETL logic
+├── ETL_project.ipynb                       ← Full ETL pipeline in Jupyter Notebook
+├── requirements.txt                        ← Project dependencies
+└── README.md                               ← Project documentation (this file)
 ```
 
 
